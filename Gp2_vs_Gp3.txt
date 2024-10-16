@@ -1,0 +1,15 @@
+ As per our rds, we are using the gp2 volume type
+ form above the image we get the 3 IOPS per GB  we get the 405 IOPS(135GB)
+and the price is $0.10/GiB-month
+ 
+2. but in the case of gp3 volume, we get 3000 IOPS min 
+and the price is $0.08/GiB-month
+3,000 IOPS free and
+$0.005/provisioned IOPS-month over 3,000;
+125 MiB/s free and
+$0.04/provisioned MiB/s-month over 125MiB/s
+ 
+Comparison Summary:
+GP2: Offers 3 IOPS per GiB, giving 405 IOPS for 135 GiB, at $13.50/month for storage.
+GP3: Offers 3,000 IOPS minimum for the same volume size at $10.80/month, with an option to provision additional IOPS and higher throughput for additional costs.
+This demonstrates that GP3 provides better performance at a lower base cost than GP2 and is more cost-effective if you need high IOPS.
