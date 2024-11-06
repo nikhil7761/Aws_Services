@@ -1,0 +1,2 @@
+aws instance store the public key
+and for the access we have to store the private key 
