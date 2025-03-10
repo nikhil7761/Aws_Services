@@ -1,2 +1,4 @@
 aws instance store the public key
 and for the access we have to store the private key 
+to get access of the server must require the private key
+ssh -i .PEM ubuntu@serverip
